@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\.. /I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis_lib\include /I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis /I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis_boot /I..\..\..\..\..\..\Projects /I..\..\..\..\..\..\Projects\stm32f4-ps2\ps2 /I..\..\..\..\..\..\Projects\stm32f4-ps2 /I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis_lib">
+      <source file="..\..\..\tm_stm32f4_gpio.c" lastModified="14e6ca1211a">
+         <include file="..\..\..\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15297c31e44">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\tm_stm32f4_timer_properties.c" lastModified="14c4235d199">
+         <include file="..\..\..\tm_stm32f4_timer_properties.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="15297c3769a">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="15297ca55c0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15297c3769b">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm32_ub_led.h" lastModified="13cc4493e80">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15297ca55ca">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15297c30757">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm32_ub_led.c" lastModified="13cc415e9e0">
+         <include file="..\..\..\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="15297c3074d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="15297c2e4f3">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="15297c2e4f2">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="151e7b965d7">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\tm_stm32f4_usart.h" lastModified="14f1f616d64">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\attributes.h"/>
+         <include file="..\..\..\defines.h"/>
+         <include file="..\..\..\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="15297c2d6bd">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="15297c31e43">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="15297c2cb74">
+      </source>
+      <source file="..\..\..\tm_stm32f4_usart.c" lastModified="152673d2fb2">
+         <include file="..\..\..\tm_stm32f4_usart.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="151e7b9ac2e">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="15297c2e4f4">
+      </source>
+      <source file="..\..\..\tm_stm32f4_delay.h" lastModified="14f01ee25d6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\defines.h"/>
+         <include file="..\..\..\attributes.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\tm_stm32f4_timer_properties.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="15297c35ad3">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15297c35ae1">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\tm_stm32f4_delay.c" lastModified="14fd9fc4492">
+         <include file="..\..\..\tm_stm32f4_delay.h"/>
+      </source>
+      <source file="..\..\..\defines.h" lastModified="15297ca7c9d">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="15297c2e0fc">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="151e7b961f9">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15297c34018">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\tm_stm32f4_gpio.h" lastModified="14dde23fa09">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="151e7b961e9">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="15297c33ff7">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="151e7b961f8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\tm_stm32f4_timer_properties.h" lastModified="14c423d1642">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\defines.h"/>
+      </source>
+      <source file="..\..\..\attributes.h" lastModified="14bd0752045">
+      </source>
+      <source file="..\..\..\ps2\ps2.c" lastModified="15297d877b2">
+         <include file="..\..\..\tm_stm32f4_usart.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\..\Documents\STM32\Coba /I..\..\..\..\..\..\Documents\STM32\Coba\usart v2 /I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis_lib\include /I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis /I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis_boot /I..\..\..\..\..\..\Projects /I..\..\..\..\..\..\Projects\stm32f4-ps2\ps2 /I..\..\..\..\..\..\Projects\stm32f4-ps2 /I..\..\..\..\..\..\Documents\STM32 /I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis_lib">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15297c31e44">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="15297c3769a">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="15297ca55c0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\Documents\STM32\Coba\usart v2\attributes.h" lastModified="14bd0752045">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15297c3769b">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_delay.c" lastModified="14fd9fc4492">
+         <include file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15297ca55ca">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15297c30757">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="15297c3074d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\Documents\STM32\Coba\usart v2\stm32_ub_led.h" lastModified="13cc4493e80">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\Documents\STM32\Coba\usart v2\stm32_ub_led.c" lastModified="13cc415e9e0">
+         <include file="..\..\..\..\..\Documents\STM32\Coba\usart v2\stm32_ub_led.h"/>
+      </source>
+      <source file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_timer_properties.h" lastModified="14c423d1642">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\Documents\STM32\Coba\usart v2\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="15297c31e43">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_gpio.h" lastModified="14dde23fa09">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\Documents\STM32\Coba\usart v2\defines.h"/>
+      </source>
+      <source file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_timer_properties.c" lastModified="14c4235d199">
+         <include file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_timer_properties.h"/>
+      </source>
+      <source file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_gpio.c" lastModified="14e6ca1211a">
+         <include file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="15297c35ad3">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15297c35ae1">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_usart.h" lastModified="14f1f616d64">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\..\..\Documents\STM32\Coba\usart v2\attributes.h"/>
+         <include file="..\..\..\..\..\Documents\STM32\Coba\usart v2\defines.h"/>
+         <include file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15297c34018">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_usart.c" lastModified="152673d2fb2">
+         <include file="..\..\..\..\..\Documents\STM32\Coba\usart v2\tm_stm32f4_usart.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="15297c33ff7">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\Documents\STM32\Coba\usart v2\defines.h" lastModified="15297ca7c9d">
+      </source>
+   </includePath>
+</dependencies>

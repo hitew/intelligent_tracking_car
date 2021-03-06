@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.7.1 mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\.. -I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis_lib\include -I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis -I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis_boot -I..\..\..\..\..\..\Projects -I..\..\..\..\..\..\Projects\stm32f4-ps2\ps2 -I..\..\..\..\..\..\Projects\stm32f4-ps2 -I..\..\..\..\..\..\Projects\stm32f4-ps2\cmsis_lib">
+      <target file="syscalls.o" lastModified="1529bacb67e">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15297c2bbd4"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1529bacb5f2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15297c31e44"/>
+      </target>
+      <target file="tm_stm32f4_timer_properties.o" lastModified="1529bacb778">
+         <source file="..\..\..\tm_stm32f4_timer_properties.c" lastModified="14c4235d199"/>
+      </target>
+      <target file="ps2.o" lastModified="1529bacb2a7">
+         <source file="..\..\..\ps2\ps2.c" lastModified="15297d873ca"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="1529bacb852">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15297c34018"/>
+      </target>
+      <target file="printf.o" lastModified="1529bacb537">
+         <source file="..\..\..\stdio\printf.c" lastModified="15297c2ceed"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1529bacb640">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="151e7b961f8"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="1529bacb72a">
+         <source file="..\..\..\tm_stm32f4_gpio.c" lastModified="14e6ca1211a"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1529bacb363">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="151e7b961e9"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="1529bacb334">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15297c35ae1"/>
+      </target>
+      <target file="stm32_ub_led.o" lastModified="1529bacb3a1">
+         <source file="..\..\..\stm32_ub_led.c" lastModified="13cc415e9e0"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="1529bacb24a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15297c3769b"/>
+      </target>
+      <target file="main.o" lastModified="152ad28de6b">
+         <source file="..\..\..\main.c" lastModified="1529c2612b2"/>
+      </target>
+      <target file="tm_stm32f4_usart.o" lastModified="1529bacb4d9">
+         <source file="..\..\..\tm_stm32f4_usart.c" lastModified="152673d2fb2"/>
+      </target>
+      <target file="tm_stm32f4_delay.o" lastModified="1529bacb5a4">
+         <source file="..\..\..\tm_stm32f4_delay.c" lastModified="14fd9fc4492"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1529bacb47b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15297c30757"/>
+      </target>
+      <target file="misc.o" lastModified="1529bacb6cc">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15297ca55ca"/>
+      </target>
+   </processor>
+</history>
